@@ -13,7 +13,7 @@ function QuestionForm(props) {
   const onRadioChange = e => {
     onAnswer(e.target.value)
   }
-  console.log('render')
+  
   return (
     <div className="question-form">
       <h2>
